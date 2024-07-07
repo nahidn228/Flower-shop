@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.btn{
+.btn {
   position: static;
   width: 150px;
   height: 50px;
@@ -20,38 +20,99 @@ body {
   background: rgb(229, 84, 115);
 }
 
-
 /* header section start */
 
 .header-section {
   display: flex;
   gap: 100px;
   align-items: center;
- justify-content: center;
- margin: 0 auto;
+  justify-content: center;
+  margin: 0 auto;
   max-width: 1600px;
   height: 650px;
   padding: 0 150px;
   background-color: rgba(229, 84, 115, 0.1);
 }
-.header-title{
+.header-title {
   color: rgb(39, 39, 39);
-font-family: Lato;
-font-size: 50px;
-font-weight: 800;
-text-align: left;
-margin-bottom: 30px;
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 30px;
 }
-.header-subtitle{
+.header-subtitle {
   color: rgba(39, 39, 39, 0.6);
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 30px;
-
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
-.header-section img{
-  
+.header-section img {
   width: 400px;
   height: 500px;
 }
+
+/* feature section start */
+.feature-section {
+  max-width: 1000px;
+  margin: 150px auto;
+}
+
+.feature-text {
+  text-align: center;
+}
+.feature-title {
+  color: rgb(39, 39, 39);
+
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 48px;
+}
+.feature-subtitle {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
+.feature-img {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+  max-height: 600px;
+}
+.feature-img img {
+  width: 220px;
+  height: 350px;
+  padding-top: 50px;
+}
+.picture-1 {
+  width: 400px;
+  height: 400px;
+  padding-top: 10px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.picture-2 {
+  width: 400px;
+  height: 400px;
+  padding-top: 10px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.picture-3 {
+  width: 400px;
+  height: 400px;
+  padding-top: 10px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+/* System support section start */
+.system-container
