@@ -115,4 +115,21 @@ body {
 }
 
 /* System support section start */
-.system-container
+.system-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1000px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.system-container p {
+  color: rgba(39, 39, 39, 0.8);
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 35px;
+}
