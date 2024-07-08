@@ -2,6 +2,7 @@
 body {
   font-family: "Lato", sans-serif;
   margin-bottom: 120px;
+  max-width: 1900px;
 }
 * {
   margin: 0;
@@ -178,4 +179,119 @@ body {
   line-height: 30px;
   margin-bottom: 30px;
 }
+.hot-deal-img {
+  padding: 100px 0;
+}
 /* Instagram section start */
+
+.instagram-section-title {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.instagram-section-subtitle {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.instagram-section-img {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1300px;
+  margin: 100px 240px;
+}
+
+.instagram-section-img img {
+  border-radius: 10px;
+  width: 350px;
+  height: 340px;
+}
+
+/* Deals section start */
+
+.deal-section {
+  max-width: 1400px;
+  height: 440px;
+  margin: 0 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-image: url("../Images/Rectangle 9.png");
+  margin-bottom: 100px;
+}
+.deal-section-title {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  margin-bottom: 15px;
+}
+.deal-section-subtitle {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+#email-input {
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  margin: 0 15px 0 0;
+  padding: 0 0 0 15px;
+}
+
+/* Footer section start */
+.footer-section {
+  background: rgb(17, 16, 16);
+  max-width: 1600px;
+  height: 450px;
+  margin: 0 auto;
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.footer-title {
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  margin-bottom: 20px;
+}
+.footer-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
